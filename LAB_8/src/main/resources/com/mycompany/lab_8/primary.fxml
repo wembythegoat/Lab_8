@@ -20,7 +20,7 @@
                <content>
                   <VBox spacing="8.0">
                      <children>
-                        <RadioButton fx:id="idBlack" mnemonicParsing="false" onAction="#colorRadioButtonSelected" text="Black">
+                        <RadioButton fx:id="idBlack" mnemonicParsing="false" onAction="#colorRadioButtonSelected" selected="true" text="Black">
                            <toggleGroup>
                               <ToggleGroup fx:id="colorToggleGroup" />
                            </toggleGroup></RadioButton>
@@ -39,7 +39,7 @@
                            <toggleGroup>
                               <ToggleGroup fx:id="sizeToggleGroup" />
                            </toggleGroup></RadioButton>
-                        <RadioButton fx:id="idMedium" layoutX="20.0" layoutY="20.0" mnemonicParsing="false" onAction="#sizeRadioButtonSelected" text="Medium" toggleGroup="$sizeToggleGroup" />
+                        <RadioButton fx:id="idMedium" layoutX="20.0" layoutY="20.0" mnemonicParsing="false" onAction="#sizeRadioButtonSelected" selected="true" text="Medium" toggleGroup="$sizeToggleGroup" />
                         <RadioButton fx:id="idLarge" layoutX="20.0" layoutY="45.0" mnemonicParsing="false" onAction="#sizeRadioButtonSelected" text="Large" toggleGroup="$sizeToggleGroup" />
                      </children>
                   </VBox>
